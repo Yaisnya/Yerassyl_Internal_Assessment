@@ -182,7 +182,7 @@ section {
 
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 0;
+  padding: 3px 0;
   box-shadow: 0px 2px 20px rgba(0, 94, 255, 0.1);
 }
 
@@ -577,9 +577,9 @@ Jolie Tour next to Camera
 }
 
 /*--------------------------------------------------------------
-# Values
+# Types of Services
 --------------------------------------------------------------*/
-.values .box {
+.typesOfServices .box {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
@@ -587,24 +587,24 @@ Jolie Tour next to Camera
   height: 100%;
 }
 
-.values .box img {
+.typesOfServices .box img {
   padding: 30px 50px;
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.values .box h3 {
+.typesOfServices .box h3 {
   font-size: 24px;
   color: #012970;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.values .box:hover {
+.typesOfServices .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.values .box:hover img {
+.typesOfServices .box:hover img {
   transform: scale(1);
 }
 
@@ -949,9 +949,15 @@ Jolie Tour next to Camera
   font-size: 18px;
   margin-bottom: 15px;
 }
-
 .pricing .price {
   font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Noto Mono", monospace;
+}
+
+.pricing .specialPrice {
+  font-size: 28px;
   color: #444444;
   font-weight: 600;
   font-family: "Noto Mono", monospace;
@@ -2392,7 +2398,7 @@ Jolie Tour next to Camera
 }
 
 .downsize {
-  height: 55%;
+  width: 70%;
 }
 
 .center {
